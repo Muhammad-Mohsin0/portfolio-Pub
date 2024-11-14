@@ -1,3 +1,4 @@
+import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -204,14 +205,20 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    Icon: FaGithub,
+    hoverBg: "bg-black text-white",
+    hoverColor: " hover:text-black ",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    Icon: FaTwitter,
+
+    hoverColor: " text-blue-500",
   },
   {
     id: 3,
-    img: "/link.svg",
+    Icon: FaLinkedin,
+
+    hoverColor: " text-blue-600",
   },
 ];
