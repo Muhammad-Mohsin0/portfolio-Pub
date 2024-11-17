@@ -8,7 +8,6 @@ import { StarsBackground } from "../components/ui/StarBackground";
 const Hero = () => {
   return (
     <div className="pb-20 pt-36 relative">
-      {/* Spotlights */}
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -21,14 +20,12 @@ const Hero = () => {
         <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
       </div>
 
-      {/* Shooting Stars */}
       <StarsBackground
         starDensity={0.0004} // Adjust star density
         twinkleProbability={2.7} // Twinkle effect
         className="absolute inset-0" // Ensures full-screen coverage
       />
 
-      {/* Shooting Stars */}
       <ShootingStars
         minSpeed={2}
         maxSpeed={30}
@@ -37,7 +34,6 @@ const Hero = () => {
         className="absolute inset-0 " // Shooting stars are non-interactive
       />
 
-      {/* Hero Content */}
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
