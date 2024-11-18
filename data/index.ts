@@ -145,6 +145,50 @@ export const testimonials = [
     title: "Director of AlphaStream Technologies",
   },
 ];
+export const technologies = [
+  {
+    id: 1,
+    name: "html",
+    img: "/html.svg",
+    // nameImg: "/cloudName.svg",
+  },
+  {
+    id: 2,
+    name: "css",
+    img: "/css.svg",
+    // nameImg: "/appName.svg",
+  },
+  {
+    id: 3,
+    name: "javascript",
+    img: "/javascript.svg",
+    // nameImg: "/hostName.svg",
+  },
+  {
+    id: 4,
+    name: "react",
+    img: "/react.svg",
+    // nameImg: "/streamName.svg",
+  },
+  {
+    id: 5,
+    name: "nextjs",
+    img: "/nextjs.svg",
+    // nameImg: "/dockerName.svg",
+  },
+  {
+    id: 6,
+    name: "gitt",
+    img: "/gitt.svg",
+    // nameImg: "/dockerName.svg",
+  },
+  {
+    id: 7,
+    name: "jira",
+    img: "/jira.svg",
+    // nameImg: "/dockerName.svg",
+  },
+];
 
 export const companies = [
   {
@@ -189,7 +233,7 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Mobile App Dev ",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
