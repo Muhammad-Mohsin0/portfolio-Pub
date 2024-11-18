@@ -22,7 +22,7 @@ export const Timeline = ({ children }: { children: React.ReactNode[] }) => {
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ["start 40%", "end 90%"],
+    offset: ["start 10%", "end 50%"],
   });
 
   const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
@@ -30,7 +30,7 @@ export const Timeline = ({ children }: { children: React.ReactNode[] }) => {
 
   return (
     <div
-      className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10"
+      className=" w-full bg-white dark:bg-neutral-950 font-sans md:px-10"
       ref={containerRef}
     >
       <div className="relative max-w-7xl mx-auto pb-20" ref={ref}>
