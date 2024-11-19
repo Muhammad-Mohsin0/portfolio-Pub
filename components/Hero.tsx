@@ -6,6 +6,7 @@ import { ShootingStars } from "../components/ui/ShootingStar";
 import { StarsBackground } from "../components/ui/StarBackground";
 import { technologies, testimonials } from "@/data";
 import React from "react";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -23,19 +24,19 @@ const Hero = () => {
           <Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
         </div>
 
-        {/* <StarsBackground
+        <StarsBackground
           starDensity={0.0004} // Adjust star density
           twinkleProbability={2.7} // Twinkle effect
           className="absolute inset-1" // Ensures full-screen coverage
-        /> */}
+        />
 
-        {/* <ShootingStars
+        <ShootingStars
           minSpeed={2}
           maxSpeed={30}
           minDelay={1000}
           maxDelay={4000}
           className="absolute inset-0 " // Shooting stars are non-interactive
-        /> */}
+        />
 
         <div className="flex justify-center relative my-20 z-10">
           <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
@@ -62,20 +63,16 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap items-center justify-center gap-2 md:gap-8 max-lg:mt-10">
+      <div className="flex flex-wrap items-center justify-center  gap-4 md:gap-12 max-lg:mt-10">
         {technologies.map((technology) => (
           <React.Fragment key={technology.id}>
             <div className="flex md:max-w-24 max-w-12 gap-2 items-center justify-center">
-              <img
+              <Image
                 src={technology.img}
                 alt={technology.name}
                 className="md:w-16 w-8"
-              />
-              <img
-                src=""
-                alt=""
-                width={technology.id === 4 || technology.id === 5 ? 100 : 150}
-                className="md:w-24 w-20"
+                width={32}
+                height={32}
               />
             </div>
           </React.Fragment>
