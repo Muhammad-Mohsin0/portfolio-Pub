@@ -260,17 +260,18 @@ export const socialMedia = [
     Icon: FaGithub,
     hoverBg: "bg-black text-white",
     hoverColor: " hover:text-black ",
+    link: "https://github.com/Muhammad-Mohsin0",
   },
   {
     id: 2,
     Icon: FaTwitter,
-
     hoverColor: " text-blue-500",
+    link: "https://x.com/Mohsinpk00?t=hdfmHVjqeMzpNEyZidNTMw&s=09",
   },
   {
     id: 3,
     Icon: FaLinkedin,
-
     hoverColor: " text-blue-600",
+    link: "https://www.linkedin.com/in/muhammadmohsin7/",
   },
 ];
