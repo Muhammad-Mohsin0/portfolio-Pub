@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10 relative" id="contact">
+    <footer className="w-full mb-[100px] md:mb-5 pb-10 relative" id="contact">
       {/* background grid */}
       <div className="w-full absolute left-0 -bottom-[10px]">
         <Image
@@ -42,7 +42,7 @@ const Footer = () => {
           Copyright © 2024 Mohsin
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6">
+        <div className="flex items-center md:gap-3 gap-6 mt-2 md:mt-0">
           {socialMedia.map((info) =>
             info.link ? (
               <Link
