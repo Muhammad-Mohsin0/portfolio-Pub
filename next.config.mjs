@@ -11,6 +11,8 @@ export default withSentryConfig(
 
       // Suppresses source map uploading logs during build
       silent: true,
+      org: "mosi-tp",
+      project: "portfolio-nextjs",
     },
     {
       // For all available options, see:
@@ -44,9 +46,6 @@ export default withSentryConfig(
   {
     // For all available options, see:
     // https://github.com/getsentry/sentry-webpack-plugin#options
-
-    org: "mosi-tp",
-    project: "portfolio-nextjs",
 
     // Only print logs for uploading source maps in CI
     silent: !process.env.CI,
