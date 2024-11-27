@@ -5,6 +5,10 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
   // Add any other Next.js configurations here
 };
 
