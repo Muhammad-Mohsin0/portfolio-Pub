@@ -10,6 +10,9 @@ const nextConfig = {
     unoptimized: true,
   },
   // Add any other Next.js configurations here
+  experimental: {
+    appDir: true,
+  },
 };
 
 const sentryConfig = {
