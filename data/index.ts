@@ -103,22 +103,6 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://edu-prismic.vercel.app/",
   },
-  {
-    id: 5,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
-  {
-    id: 5,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
 ];
 
 export const testimonials = [
@@ -163,51 +147,44 @@ export const technologies = [
     id: 1,
     name: "html",
     img: "/html.svg",
-    // nameImg: "/cloudName.svg",
   },
   {
     id: 2,
     name: "css",
     img: "/css.svg",
-    // nameImg: "/appName.svg",
   },
   {
     id: 3,
     name: "javascript",
     img: "/javascript.svg",
-    // nameImg: "/hostName.svg",
   },
   {
     id: 4,
     name: "react",
     img: "/react.svg",
-    // nameImg: "/streamName.svg",
   },
   {
     id: 5,
     name: "nextjs",
     img: "/nextjs.svg",
-    // nameImg: "/dockerName.svg",
   },
   {
     id: 6,
     name: "gitt",
     img: "/gitt.svg",
-    // nameImg: "/dockerName.svg",
   },
   {
     id: 7,
-    name: "jira",
-    img: "/jira.svg",
-    // nameImg: "/dockerName.svg",
+    name: "postman",
+    img: "/postmaan.svg",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "postman",
-    img: "/postmaan.svg",
+    name: "jira",
+    img: "/jira.svg",
   },
   {
     id: 2,
